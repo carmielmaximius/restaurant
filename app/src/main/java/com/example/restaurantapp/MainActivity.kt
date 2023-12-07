@@ -39,6 +39,11 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
+fun HomeScreen() {
+
+}
+
+@Composable
 fun BoxWithRes(
     resId: Int,
     description: String,
@@ -67,6 +72,6 @@ fun BoxWithRes(
 @Composable
 fun GreetingPreview() {
     RestaurantAppTheme {
-        BoxWithRes(resId = R.drawable.menu, bgColor = Yellow500, description = "manual")
+        BoxWithRes(resId = R.drawable.menu, bgColor = Yellow500, description = "manu")
     }
 }
