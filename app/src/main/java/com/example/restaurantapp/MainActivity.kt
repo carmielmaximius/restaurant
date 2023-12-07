@@ -24,6 +24,7 @@ import androidx.compose.ui.unit.dp
 import com.example.restaurantapp.ui.theme.CardItemBg
 import com.example.restaurantapp.ui.theme.IconColor
 import com.example.restaurantapp.ui.theme.RestaurantAppTheme
+import com.example.restaurantapp.ui.theme.Yellow500
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -66,6 +67,6 @@ fun BoxWithRes(
 @Composable
 fun GreetingPreview() {
     RestaurantAppTheme {
-        BoxWithRes(resId = R.drawable.menu, description = "menu")
+        BoxWithRes(resId = R.drawable.menu, bgColor = Yellow500, description = "menu")
     }
 }
