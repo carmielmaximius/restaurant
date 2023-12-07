@@ -67,6 +67,6 @@ fun BoxWithRes(
 @Composable
 fun GreetingPreview() {
     RestaurantAppTheme {
-        BoxWithRes(resId = R.drawable.menu, bgColor = Yellow500, description = "menu")
+        BoxWithRes(resId = R.drawable.menu, bgColor = Yellow500, description = "manual")
     }
 }
